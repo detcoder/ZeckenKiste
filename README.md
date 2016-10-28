@@ -5,7 +5,7 @@
 ゴミの様なダニの様なそんなものです
 
 + sortSessionManager.pl  
-Firefoxのアドオン「SessionManager(https://addons.mozilla.org/ja/firefox/addon/session-manager/)」の.session形式ファイル内のタブを条件を指定して並び替えるスクリプト。
+Firefoxのアドオン「SessionManager( https://addons.mozilla.org/ja/firefox/addon/session-manager/ )」の.session形式ファイル内のタブを条件を指定して並び替えるスクリプト。
 
 ## 使い方
 
