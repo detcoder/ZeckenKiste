@@ -53,7 +53,7 @@ $sesfilename = Encode::decode($encname, $ARGV[0]);
 #-対象のタブだと判断するタブ名のコンパイル済み正規表現、もしくは正規表現文字列。空文字だと判断しない
 my($tabnameregexp) = (qr/開始\s-\sニコニコ生放送$/);
 #-対象のタブだと判断するURLのコンパイル済み正規表現、もしくは正規表現文字列。空文字だと判断しない
-my($taburlregexp)  = (qr/^http:\/\/live\.nicovideo\.jp\/watch\/lv\d+/);
+my($taburlregexp)  = (qr/^http:\/\/live\.nicovideo\.jp\/(?:watch|gate)\/lv\d+/);
 #-対象のタブグループだと判断するグループ名のコンパイル済み正規表現。空文字だと以下略
 my($tabgroupregexp) = ('');
 #-バックアップファイルの拡張子。空文字列なら作らない
